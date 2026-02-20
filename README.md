@@ -1,4 +1,4 @@
-<h1>Database Mulheres Autistas — Projeto Híbrido (Backend + Análise de Dados)</h1>
+<h1>Database Mulheres Autistas </h1>
 
  ![Lisbeth Salander](https://i.pinimg.com/originals/8b/5b/eb/8b5beb6288b59ee1918719dd4ac840e0.gif)
 
