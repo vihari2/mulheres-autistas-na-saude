@@ -3,111 +3,174 @@
  ![Lisbeth Salander](https://i.pinimg.com/originals/8b/5b/eb/8b5beb6288b59ee1918719dd4ac840e0.gif)
 
 
-<p>
-        Bem-vinda ao <strong>Autismo Database — Mulheres Autistas</strong>, um projeto informativo e colaborativo
-        dedicado a reunir, organizar e divulgar informações sobre o espectro autista
-        <strong>a partir da vivência e da realidade de mulheres autistas</strong>.
-    </p>
+<h1>🧩 Database Autismo — Projeto Híbrido (Backend + Análise de Dados)</h1>
 
+<h2>📌 Sobre o Projeto</h2>
 <p>
-        O projeto nasce da necessidade de dar visibilidade às experiências femininas no espectro,
-        historicamente invisibilizadas, subdiagnosticadas e muitas vezes mal compreendidas.
-        Aqui, o foco é informação de qualidade, respeito, escuta e representatividade.
+O <strong>Database Autismo</strong> é um projeto híbrido que une:
 </p>
 
- <h2>Objetivo do projeto</h2>
-
-<p>
-        O principal objetivo é criar uma base de dados acessível, confiável e inclusiva sobre
-        <strong>mulheres autistas</strong>, valorizando suas vivências, necessidades específicas
-        e perspectivas.
- </p>
-
 <ul>
-        <li>Ser uma fonte de referência sobre autismo em mulheres, com informação clara e responsável.</li>
-        <li>Apoiar mulheres autistas, familiares, profissionais e pessoas em processo de autoconhecimento ou diagnóstico.</li>
-        <li>Combater a desinformação e os estereótipos sobre o autismo feminino.</li>
-        <li>Servir como base para um futuro site interativo voltado especificamente para mulheres no espectro.</li>
+  <li>Modelagem e estruturação de banco de dados</li>
+  <li>Desenvolvimento backend para manipulação dos dados</li>
+  <li>Análise exploratória de dados (EDA)</li>
+  <li>Extração de insights a partir das informações estruturadas</li>
 </ul>
 
-<h2>Tipos de informação incluídos</h2>
-
-<p>O projeto reúne conteúdos organizados por temas, sempre com foco em mulheres autistas, como:</p>
-
- <ul>
-        <li>
-            <strong>Conceitos e definições:</strong>
-            explicações sobre o autismo considerando o recorte de gênero, incluindo camuflagem social,
-            diagnóstico tardio e diferenças em relação aos modelos tradicionais.
-        </li>
-        <li>
-            <strong>Vivências de mulheres autistas:</strong>
-            relatos, textos e experiências escritas por mulheres autistas, respeitando a diversidade dentro do espectro.
-        </li>
-        <li>
-            <strong>Direitos e políticas públicas:</strong>
-            informações sobre legislação, benefícios, saúde mental, trabalho e inclusão no Brasil,
-            com atenção às questões que impactam mulheres.
-        </li>
-        <li>
-            <strong>Recursos úteis:</strong>
-            associações, projetos, grupos de apoio, conteúdos educativos e profissionais sensíveis
-            à temática do autismo em mulheres.
-        </li>
-        <li>
-            <strong>Glossário inclusivo:</strong>
-            termos e expressões importantes do universo neurodivergente, evitando linguagem patologizante
-            ou estigmatizante.
-        </li>
-    </ul>
-
 <p>
-        Todo o conteúdo é guiado pelos valores de diversidade, empatia, autonomia e informação de qualidade.
-    </p>
+O projeto começou com foco em organização e armazenamento de dados relacionados ao Transtorno do Espectro Autista (TEA) 
+e evoluiu para incluir análise e exploração estatística dessas informações.
+</p>
 
-<h2>Como contribuir</h2>
+<hr>
 
-<p>Quer contribuir? Toda ajuda é bem-vinda 💙</p>
+<h2>🎯 Objetivos do Projeto</h2>
 
 <ul>
-        <li>Faça um <strong>fork</strong> deste repositório.</li>
-        <li>Adicione ou corrija informações em arquivos HTML ou Markdown dentro da pasta <code>/data</code>.</li>
-        <li>Envie um <strong>pull request</strong> com uma breve explicação das mudanças.</li>
-    </ul>
+  <li>Estruturar um banco de dados relacional</li>
+  <li>Implementar lógica de manipulação e consulta de dados</li>
+  <li>Realizar análise exploratória</li>
+  <li>Identificar padrões e relações entre variáveis</li>
+  <li>Construir um projeto sólido para portfólio técnico</li>
+</ul>
 
-<p>
-        Contribuições de <strong>mulheres autistas</strong> são especialmente valorizadas,
-        mas aliadas respeitosas também são bem-vindas.
-    </p>
+<hr>
 
-<h2>Antes de contribuir</h2>
+<h2>🏗 Arquitetura do Projeto</h2>
+
+<pre>
+database-autismo/
+│
+├── data/                  # Dataset utilizado para análise
+├── database/              # Scripts de criação do banco
+├── src/                   # Código backend / manipulação de dados
+├── notebooks/             # Análise exploratória
+└── README.md
+</pre>
+
+<hr>
+
+<h2>🗄 Parte 1 — Banco de Dados</h2>
 
 <ul>
-        <li>Priorize fontes confiáveis (científicas, institucionais ou vivências autistas).</li>
-        <li>Evite termos médicos desatualizados ou linguagem patologizante.</li>
-        <li>Respeite a diversidade de experiências dentro do espectro.</li>
-        <li>Mantenha o foco no autismo em mulheres.</li>
-    </ul>
+  <li>Modelagem relacional</li>
+  <li>Estruturação de tabelas</li>
+  <li>Inserção e consulta de dados</li>
+  <li>Normalização básica</li>
+</ul>
 
-<h2>Futuro do projeto</h2>
+<p><strong>Possível uso de:</strong></p>
+<ul>
+  <li>SQLite</li>
+  <li>PostgreSQL</li>
+</ul>
 
-<p>Próximos passos planejados:</p>
+<p><strong>Conceitos aplicados:</strong></p>
+<ul>
+  <li>Integridade de dados</li>
+  <li>Relacionamentos</li>
+  <li>Consultas SQL</li>
+</ul>
+
+<hr>
+
+<h2>💻 Parte 2 — Programação</h2>
 
 <ul>
-        <li>Estruturação de um banco de dados (SQLite ou PostgreSQL).</li>
-        <li>Desenvolvimento de uma API simples.</li>
-        <li>Criação de um site interativo com busca e visualização de dados.</li>
-        <li>Ampliação do acervo de vivências e materiais produzidos por mulheres autistas.</li>
-    </ul>
+  <li>Scripts para manipulação dos dados</li>
+  <li>Automatização de consultas</li>
+  <li>Organização modular do código</li>
+  <li>Separação entre lógica e armazenamento</li>
+</ul>
 
-<h2>Licença</h2>
+<p><strong>Tecnologias:</strong></p>
+<ul>
+  <li>Python</li>
+  <li>SQL</li>
+</ul>
+
+<hr>
+
+<h2>📊 Parte 3 — Análise de Dados</h2>
+
+<p>A partir dos dados estruturados no banco, foi realizada análise exploratória incluindo:</p>
+
+<ul>
+  <li>Estatísticas descritivas</li>
+  <li>Distribuição de idade</li>
+  <li>Frequência por categoria</li>
+  <li>Relação entre variáveis</li>
+  <li>Identificação de possíveis padrões</li>
+</ul>
+
+<p><strong>Ferramentas:</strong></p>
+<ul>
+  <li>Pandas</li>
+  <li>Matplotlib</li>
+  <li>Jupyter Notebook</li>
+</ul>
+
+<hr>
+
+<h2>🔎 Perguntas Investigadas</h2>
+
+<ul>
+  <li>Existe padrão na idade de diagnóstico?</li>
+  <li>Há diferenças relevantes entre grupos?</li>
+  <li>Existem variáveis com correlação significativa?</li>
+  <li>É possível identificar agrupamentos nos dados?</li>
+</ul>
+
+<hr>
+
+<h2>🚀 Próximas Evoluções</h2>
+
+<ul>
+  <li>Dashboard interativo</li>
+  <li>Aplicação de clustering</li>
+  <li>Modelo simples de classificação</li>
+  <li>Deploy como aplicação web</li>
+  <li>Integração com API</li>
+</ul>
+
+<hr>
+
+<h2>🧠 Competências Demonstradas</h2>
+
+<ul>
+  <li>✔ Modelagem de banco de dados</li>
+  <li>✔ Estruturação de projeto</li>
+  <li>✔ Manipulação de dados com Python</li>
+  <li>✔ Consultas SQL</li>
+  <li>✔ Análise exploratória de dados</li>
+  <li>✔ Visualização de dados</li>
+  <li>✔ Organização para portfólio técnico</li>
+</ul>
+
+<hr>
+
+<h2>⚠️ Observação</h2>
 
 <p>
-        Este é um projeto de código aberto.<br>
-        Você é livre para usar, modificar e compartilhar, desde que mantenha os créditos
-        e respeite a proposta do projeto.
-    </p>
+Os dados utilizados são simulados/anonimizados e têm finalidade educacional.
+</p>
 
-<p>
-        ✨ <em>“Por que se encaixar, se você nasceu para se destacar?” — Dr. Seuss</em>
-    </p>
+<hr>
+
+<h2>▶ Como Executar</h2>
+
+<ol>
+  <li>Clone o repositório:</li>
+</ol>
+
+<pre>git clone https://github.com/vihari2/database-autismo.git</pre>
+
+<ol start="2">
+  <li>Instale as dependências:</li>
+</ol>
+
+<pre>pip install -r requirements.txt</pre>
+
+<ol start="3">
+  <li>Execute o projeto ou abra os notebooks para análise.</li>
+</ol>
