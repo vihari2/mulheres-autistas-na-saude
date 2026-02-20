@@ -121,32 +121,6 @@ database-autismo/
 
 <hr>
 
-<h2>🚀 Próximas Evoluções</h2>
-
-<ul>
-  <li>Dashboard interativo</li>
-  <li>Aplicação de clustering</li>
-  <li>Modelo simples de classificação</li>
-  <li>Deploy como aplicação web</li>
-  <li>Integração com API</li>
-</ul>
-
-<hr>
-
-<h2>🧠 Competências Demonstradas</h2>
-
-<ul>
-  <li>✔ Modelagem de banco de dados</li>
-  <li>✔ Estruturação de projeto</li>
-  <li>✔ Manipulação de dados com Python</li>
-  <li>✔ Consultas SQL</li>
-  <li>✔ Análise exploratória de dados</li>
-  <li>✔ Visualização de dados</li>
-  <li>✔ Organização para portfólio técnico</li>
-</ul>
-
-<hr>
-
 <h2>⚠️ Observação</h2>
 
 <p>
