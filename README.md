@@ -1,7 +1,7 @@
 
  ![Lisbeth Salander](https://i.pinimg.com/originals/8b/5b/eb/8b5beb6288b59ee1918719dd4ac840e0.gif)
 
-# Database Mulheres Autistas 🟣
+# 🟣
 
 Projeto em construção.
 
