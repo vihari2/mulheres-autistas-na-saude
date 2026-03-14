@@ -17,3 +17,4 @@ misoginia dentro da medicina.
 
 ## Status
 🚧 Em desenvolvimento — coleta de dados em andamento.
+https://docs.google.com/forms/d/e/1FAIpQLSc_BNLTNq8cZuTX3a103nPne5748Oqe3KFE4o8OG0WSH_toFQ/viewform 
